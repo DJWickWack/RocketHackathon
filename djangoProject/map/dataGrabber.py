@@ -18,7 +18,6 @@ class tweets():
         if (lowid != None):  # if you dont have a previous itt,
             twt = self.api.search(q='#trashtag', count=100, max_id=lowid)
             for st in twt:
-                coordinates = None
                 A.append(st.id)
                 if (st.coordinates):
                     lon = st.coordinates["coordinates"][0]
@@ -28,14 +27,13 @@ class tweets():
                     print(lat)
                     print(url)
 
-                    newTTag = TrashTag(lat, lon, url)
+                    newTTag = TrashTag(latitude=lat, longitude=lon, url=url)
                     newTTag.save()
 
                     print(10 * '-')
         else:  # if you have a previous itt,
             twt = self.api.search(q="#trashtag", count=100)
             for st in twt:
-                coordinates = None
                 A.append(st.id)
                 if (st.coordinates):
                     lon = st.coordinates["coordinates"][0]

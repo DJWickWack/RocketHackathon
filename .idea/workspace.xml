@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e6faf9-f42d-4add-a5b9-177c2036fe91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/djangoProject/map/generateJSON.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/RocketHackathon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RocketHackathon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/apiKeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/apiKeys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/dataGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/dataGrabber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagAddHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/templates/map/trashtagAddHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/templates/map/trashtagHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/static/map/testj.json" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/static/map/testj.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/static/map/trashtagCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/static/map/trashtagCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/trashTagMap/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/trashTagMap/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/trashTagMap/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/trashTagMap/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/trashTagMap/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/map/dataGrabber.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/dataGrabber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/map/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/trashTagMap/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +22,7 @@
     <SUITE FILE_PATH="coverage/RocketHackathon$dataGrabber.coverage" NAME="dataGrabber Coverage Results" MODIFIED="1555237779276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trashTagMap/map" />
     <SUITE FILE_PATH="coverage/RocketHackathon$registry.coverage" NAME="registry Coverage Results" MODIFIED="1555228480902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/lib/python3.7/site-packages/django/apps" />
     <SUITE FILE_PATH="coverage/RocketHackathon$dataGrabber__1_.coverage" NAME="dataGrabber (1) Coverage Results" MODIFIED="1555239294469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject/map" />
+    <SUITE FILE_PATH="coverage/RocketHackathon$generateJSON.coverage" NAME="generateJSON Coverage Results" MODIFIED="1555243531473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProject/map" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,6 +38,9 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="DockManager">
     <window id="2">
       <content type="file-editors">
@@ -63,11 +49,20 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/djangoProject/map/dataGrabber.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="271">
-                    <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+                  <state relative-caret-position="598">
+                    <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
                     <folding>
                       <element signature="e#72#85#0" expanded="true" />
                     </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/settings.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="574">
+                    <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="44" />
                   </state>
                 </provider>
               </entry>
@@ -80,19 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoProject/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="161">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="64" />
               <folding>
                 <element signature="e#84#93#0" expanded="true" />
               </folding>
@@ -108,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="165">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="e#229#238#0" expanded="true" />
               </folding>
@@ -155,11 +141,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoProject/map/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/djangoProject/map/generateJSON.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,17 +219,18 @@
         <option value="$PROJECT_DIR$/trashTagMap/map/dataGrabber.py" />
         <option value="$PROJECT_DIR$/djangoProject/manage.py" />
         <option value="$PROJECT_DIR$/djangoProject/trashTagMap/wsgi.py" />
-        <option value="$PROJECT_DIR$/djangoProject/trashTagMap/settings.py" />
         <option value="$PROJECT_DIR$/djangoProject/map/dataGrabber.py" />
+        <option value="$PROJECT_DIR$/djangoProject/trashTagMap/settings.py" />
         <option value="$PROJECT_DIR$/djangoProject/map/models.py" />
+        <option value="$PROJECT_DIR$/djangoProject/map/generateJSON.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="124" />
     <option name="y" value="32" />
-    <option name="width" value="964" />
-    <option name="height" value="1052" />
+    <option name="width" value="960" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -257,12 +256,6 @@
               <item name="djangoProject" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RocketHackathon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RocketHackathon" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoProject" type="462c0819:PsiDirectoryNode" />
-              <item name="trashTagMap" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -271,10 +264,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/djangoProject/trashTagMap/settings.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dataGrabber (1)">
+  <component name="RunManager" selected="Python.generateJSON">
     <configuration name="RocketHackathon" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="RocketHackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -367,6 +360,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generateJSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RocketHackathon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/djangoProject/map" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/djangoProject/map/generateJSON.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="registry" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RocketHackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -413,6 +428,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generateJSON" />
         <item itemvalue="Python.dataGrabber (1)" />
         <item itemvalue="Python.dataGrabber" />
         <item itemvalue="Python.registry" />
@@ -440,31 +456,33 @@
       <workItem from="1555210105273" duration="788000" />
       <workItem from="1555210920485" duration="777000" />
       <workItem from="1555228329355" duration="9203000" />
-      <workItem from="1555239352834" duration="1787000" />
+      <workItem from="1555239352834" duration="5598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44371000" />
+    <option name="totallyTimeSpent" value="48182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="32" width="964" height="1052" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21648352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="manage.py@RocketHackathon" weight="0.33995584" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36807096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36754966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991131" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33443707" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.49889624" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.49223948" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,38 +625,8 @@
     <entry file="file://$PROJECT_DIR$/djangoProject/map/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoProject/map/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#229#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoProject/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#84#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoProject/map/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -667,10 +655,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/map/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="e#229#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="64" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/djangoProject/map/dataGrabber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="598">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="e#72#85#0" expanded="true" />
           </folding>
@@ -679,8 +697,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/djangoProject/map/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoProject/map/generateJSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
