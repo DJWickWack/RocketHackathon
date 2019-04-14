@@ -5,6 +5,7 @@ Grab data from the twitter API and import it into the database
 import tweepy
 from map.models import TrashTag
 
+
 class tweets():
     def __init__(self):
         auth = tweepy.OAuthHandler('WTlR4vdaXPAx15eRKzarFFK5M', "V3stPYHjdQVCKEZE8dqzZNOzNJndaoX2rcI4pRAf090dBmLrf6")
@@ -27,8 +28,8 @@ class tweets():
                     print(lat)
                     print(url)
 
-                    #newTTag = TrashTag(latitude = lat, longitude = lon, url = url)
-                    #newTTag.save()
+                    newTTag = TrashTag(lat, lon, url)
+                    newTTag.save()
 
                     print(10 * '-')
         else:  # if you have a previous itt,
@@ -46,8 +47,8 @@ class tweets():
                     print(lat)
                     print(url)
 
-                    #newTTag = TrashTag(latitude=lat, longitude=lon, url=url)
-                    #newTTag.save()
+                    newTTag = TrashTag(lat, lon, url)
+                    newTTag.save()
 
                     print(10 * '-')
 

@@ -2,10 +2,10 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/trashTagMap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/trashTagMap/map/templates" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/trashTagMap/map" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/trashTagMap/trashTagMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/djangoProject" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/djangoProject/map/templates" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/djangoProject/map" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/djangoProject/trashTagMap" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
