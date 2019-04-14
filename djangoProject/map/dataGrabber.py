@@ -54,5 +54,5 @@ class tweets():
 
 t = tweets()
 a = None
-for x in range(1, 100):
+for x in range(1, 100000000):
     a = t.search_for_tweets(a)

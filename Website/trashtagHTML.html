@@ -32,16 +32,36 @@
                     }
                 );
                 
+<<<<<<< HEAD
                 $.getJSON('https://api.myjson.com/bins/14gy4s', function(data){
+=======
+                $.getJSON('testj.json', function(data){
+>>>>>>> origin/web
                     console.log('success');
                     console.log(data)
                     for (var i = 0; i < data.length; i++) {
                         var latLng = new google.maps.LatLng(data[i].latitude, data[i].longitude);
                         
+<<<<<<< HEAD
+=======
+                        
+
+                        var infowindow = new google.maps.InfoWindow({
+                            content: contentString
+                        });
+                        
+>>>>>>> origin/web
                         var marker = new google.maps.Marker({
                             position: latLng,
                             map: map
                         });
+<<<<<<< HEAD
+=======
+                        
+                        marker.addListener('click', function() {
+                            infowindow.open(map, marker);
+                        });
+>>>>>>> origin/web
                     }
                 }).error(function(){
                     console.log('error');

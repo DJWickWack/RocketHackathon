@@ -5,6 +5,6 @@ from django.core import serializers
 trashtags = TrashTag.objects.all()
 structure = serializers.serialize('json', trashtags)
 
-file = open("output.json", "w")
+file = open("../static/map/output.json", "w")
 file.write(structure)
 file.close()
