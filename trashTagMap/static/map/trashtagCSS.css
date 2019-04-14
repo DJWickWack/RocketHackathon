@@ -1,0 +1,20 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Exo 2', sans-serif;
+}
+.container {
+    background-color: #FF934F;
+    color: #FFF;
+    text-align: center;
+    font-size: 35px;
+    height: 100px;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+#map {
+    height: 90%;
+    width: 100%;
+    margin: 0;
+}
