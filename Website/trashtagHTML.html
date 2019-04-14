@@ -32,25 +32,15 @@
                     }
                 );
                 
-                $.getJSON('testj.json', function(data){
+                $.getJSON('https://api.myjson.com/bins/14gy4s', function(data){
                     console.log('success');
                     console.log(data)
                     for (var i = 0; i < data.length; i++) {
                         var latLng = new google.maps.LatLng(data[i].latitude, data[i].longitude);
                         
-                        
-
-                        var infowindow = new google.maps.InfoWindow({
-                            content: contentString
-                        });
-                        
                         var marker = new google.maps.Marker({
                             position: latLng,
                             map: map
-                        });
-                        
-                        marker.addListener('click', function() {
-                            infowindow.open(map, marker);
                         });
                     }
                 }).error(function(){
