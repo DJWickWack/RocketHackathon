@@ -35,29 +35,16 @@
                 $.getJSON('/static/map/output.json', function(data){
                     for (var i = 0; i < data.length; i++) {
                         var twitterUrl = data[i].fields["url"];
-                        var contentString = '<div id="content">'+
-                                    '<div id="siteNotice">'+
-                                    '</div>'+
-                                    '<h1 id="firstHeading" class="firstHeading">I Kinda got it to work :)</h1>'+
-                                    '<div id="bodyContent">'+
-                                    '<a href='+String(twitterUrl)+'>'+
-                                    '<img src="button.jpg" alt="twitter.com" style="width:200px;height:100px;border:0;">'+
-                                    '</a>'+
-                                    '</div>'+
-                                    '</div>';
-
                         var latLng = new google.maps.LatLng(data[i].fields["latitude"], data[i].fields["longitude"]);
-                        var infowindow = new google.maps.InfoWindow({
-                        content: contentString
-                        });
                         var marker = new google.maps.Marker({
                             position: latLng,
                             map: map,
-                            title: String(latLng)
+                            title: String(latLng),
+                            url: twitterUrl
                         });
-                        marker.addListener('click', function() {
-                        infowindow.open(map, marker);
-                         });
+                        google.maps.event.addListener(marker, 'click', function(){
+                            window.location.href=marker.url;
+                        })
                     }
                 })
             }
