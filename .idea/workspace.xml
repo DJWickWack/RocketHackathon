@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e6faf9-f42d-4add-a5b9-177c2036fe91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Website/testj.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trashTagMap/static/map/testj.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trashTagMap/map/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trashTagMap/map/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trashTagMap/map/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website/trashtagHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website/trashtagHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,40 +42,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagAddHTML.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="414">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/main.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trashTagMap/map/models.py">
+        <entry file="file://$PROJECT_DIR$/Website/testj.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="253">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trashTagMap/trashTagMap/views.py">
+        <entry file="file://$PROJECT_DIR$/Website/trashtagCSS.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/trashtagAddHTML.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Website/trashtagHTML.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="169">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trashTagMap/static/map/testj.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,15 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -124,6 +132,7 @@
       <find>installed</find>
       <find>trashtagcss.css</find>
       <find>trashtagc</find>
+      <find>.json</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -147,11 +156,11 @@
         <option value="$PROJECT_DIR$/trashTagMap/trashTagMap/urls.py" />
         <option value="$PROJECT_DIR$/trashTagMap/map/models.py" />
         <option value="$PROJECT_DIR$/trashTagMap/map/templates/map/index.html" />
-        <option value="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html" />
         <option value="$PROJECT_DIR$/trashTagMap/trashTagMap/settings.py" />
         <option value="$PROJECT_DIR$/trashTagMap/map/views.py" />
         <option value="$PROJECT_DIR$/trashTagMap/map/urls.py" />
         <option value="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagAddHTML.html" />
+        <option value="$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html" />
       </list>
     </option>
   </component>
@@ -204,7 +213,25 @@
               <item name="RocketHackathon" type="b2602c69:ProjectViewProjectNode" />
               <item name="RocketHackathon" type="462c0819:PsiDirectoryNode" />
               <item name="trashTagMap" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RocketHackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RocketHackathon" type="462c0819:PsiDirectoryNode" />
               <item name="trashTagMap" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RocketHackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RocketHackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="trashTagMap" type="462c0819:PsiDirectoryNode" />
+              <item name="trashTagMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RocketHackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RocketHackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,17 +246,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trashTagMap/static/map" />
+      <recent name="$PROJECT_DIR$/trashTagMap/map/templates/map" />
+      <recent name="$PROJECT_DIR$/Website" />
+      <recent name="$PROJECT_DIR$/trashTagMap/map" />
+      <recent name="$PROJECT_DIR$/trashTagMap/map/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/trashTagMap/static/map" />
       <recent name="$PROJECT_DIR$/trashTagMap/map/templates/map" />
       <recent name="$PROJECT_DIR$/trashTagMap/map" />
       <recent name="$PROJECT_DIR$/trashTagMap" />
       <recent name="$PROJECT_DIR$/trashTagMap/trashTagMap" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/trashTagMap/map/templates/map" />
-      <recent name="$PROJECT_DIR$/trashTagMap/map" />
-      <recent name="$PROJECT_DIR$/trashTagMap/map/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,12 +316,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20406000" />
+    <option name="totallyTimeSpent" value="20999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="710" y="32" width="1210" height="1048" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23788927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23788927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +335,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33259425" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33259425" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -336,9 +365,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trashTagMap/map/index.html" />
     <entry file="file://$PROJECT_DIR$/Website/index.html" />
-    <entry file="file://$PROJECT_DIR$/Website/trashtagHTML.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/trashTagMap/map/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -374,7 +400,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/trashTagMap/static/map/trashtagCSS.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/main.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
@@ -394,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -433,10 +456,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagAddHTML.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="414">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/json_notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/testj.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/trashtagCSS.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/trashtagAddHTML.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/trashtagHTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trashTagMap/map/templates/map/trashtagHTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trashTagMap/static/map/testj.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
