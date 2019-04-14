@@ -10,3 +10,6 @@ def map(request):
 
 def trashtagCSS(request):
     return  render(request, 'map/trashtagCSS.css')
+
+def trashtagAdd(request):
+    return render(request, 'map/trashtagAddHTML.html')
