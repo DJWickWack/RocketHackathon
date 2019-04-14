@@ -1,0 +1,77 @@
+<html>
+
+    <head>
+        <title>Trashtag Locator</title>
+        <link rel="stylesheet" href="trashtagCSS.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class=container>
+            <h1>#trashtag Locator</h1>
+        </div>
+        
+        <div id="map">
+        </div>
+        
+        <script>
+            var map;
+            
+            function initMap() {
+                var location = {lat: 42.361145, lng: -71.057083};
+                map = new google.maps.Map(
+                    document.getElementById('map'), 
+                    {
+                        zoom: 13, 
+                        center: location, 
+                        streetViewControl: false, 
+                        fullscreenControl: false, 
+                        mapTypeControl: false
+                    }
+                );
+                                                
+                $.getJSON('https://api.myjson.com/bins/14gy4s', function(data){
+                    for (var i = 0; i < data.length; i++) {
+                        var twitterUrl = data[i].tweet;
+                        var contentString = '<div id="content">'+
+                                    '<div id="siteNotice">'+
+                                    '</div>'+
+                                    '<h1 id="firstHeading" class="firstHeading">I Kinda got it to work :)</h1>'+
+                                    '<div id="bodyContent">'+
+                                    '<a href='+String(twitterUrl)+'>'+
+                                    '<img src="button.jpg" alt="twitter.com" style="width:200px;height:100px;border:0;">'+
+                                    '</a>'+
+                                    '</div>'+
+                                    '</div>';
+
+                        var latLng = new google.maps.LatLng(data[i].latitude, data[i].longitude);
+                        var infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                        });
+                        var marker = new google.maps.Marker({
+                            position: latLng,
+                            map: map,
+                            title: String(latLng)
+                        });
+                        marker.addListener('click', function() {
+                        infowindow.open(map, marker);
+                         });
+                    }
+                })
+            }
+        
+            
+        </script>
+        
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM7BWSr6Aqnxt69619up3qlbFA7ubPhpI&callback=initMap"> 
+        </script>
+        
+        <script sync src="https://platform.twitter.com/widgets.js"></script>
+        
+        <script></script>
+        
+    </body>
+    
+</html>
