@@ -34,7 +34,7 @@
                                                 
                 $.getJSON('/static/map/output.json', function(data){
                     for (var i = 0; i < data.length; i++) {
-                        var twitterUrl = data[i].tweet;
+                        var twitterUrl = data[i].fields["url"];
                         var contentString = '<div id="content">'+
                                     '<div id="siteNotice">'+
                                     '</div>'+
@@ -46,7 +46,7 @@
                                     '</div>'+
                                     '</div>';
 
-                        var latLng = new google.maps.LatLng(data[i].latitude, data[i].longitude);
+                        var latLng = new google.maps.LatLng(data[i].fields["latitude"], data[i].fields["longitude"]);
                         var infowindow = new google.maps.InfoWindow({
                         content: contentString
                         });
