@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e6faf9-f42d-4add-a5b9-177c2036fe91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/templates/trashTagMap/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/map/templates/map/trashtagHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/map/templates/map/trashtagHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/trashTagMap/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/trashTagMap/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trashtag Hashtag - Hackathon Team Presentation.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -221,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-4" />
     <option name="y" value="32" />
     <option name="width" value="964" />
@@ -503,18 +500,17 @@
       <workItem from="1555239352834" duration="10641000" />
       <workItem from="1555250065986" duration="1056000" />
       <workItem from="1555251145106" duration="372000" />
-      <workItem from="1555251549074" duration="342000" />
+      <workItem from="1555251549074" duration="1076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54995000" />
+    <option name="totallyTimeSpent" value="55729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="32" width="964" height="1052" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="32" width="1928" height="1052" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5901099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -528,7 +524,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33002207" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33002207" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.49223948" />
       <window_info anchor="bottom" id="manage.py@RocketHackathon" order="13" weight="0.49334812" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -536,7 +532,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.06703297" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.032550693" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648352" />
@@ -810,7 +806,7 @@
     <entry file="file://$PROJECT_DIR$/djangoProject/trashTagMap/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
